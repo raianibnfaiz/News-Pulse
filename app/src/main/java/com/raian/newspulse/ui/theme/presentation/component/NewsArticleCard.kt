@@ -27,7 +27,7 @@ fun NewsArticleCard(
     Card(
         modifier = modifier
             .clickable { onCardClicked(article) }
-            .padding(2.dp)
+            .padding(12.dp)
             .clipToBounds()
     ) {
         Column(modifier = Modifier.padding(10.dp)) {
