@@ -28,7 +28,7 @@ fun ImageHolder(
         contentDescription = "Image",
     contentScale = ContentScale.FillBounds,
     modifier = modifier
-        .clip(RoundedCornerShape(4.dp))
+        .clip(RoundedCornerShape(14.dp))
         .fillMaxWidth()
         .aspectRatio(16 / 9f),
         placeholder = painterResource(R.drawable.loading),
